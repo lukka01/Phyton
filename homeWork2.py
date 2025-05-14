@@ -7,7 +7,7 @@ def min_value (dict):
         if isinstance(value, (int, float)):
             if minVal is None or value < minVal:
                 minVal = value
-    print("The minimal value is:", minVal)
+    print("The  value is:", minVal)
     return minVal
 
 
